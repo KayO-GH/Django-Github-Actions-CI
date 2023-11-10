@@ -1,4 +1,4 @@
-# Pull base image...the --platfomr is for mac users suing M1 chips
+# Pull base image...the --platform is for mac users using M1 chips
 FROM --platform=linux/amd64 python:3.10.4-slim-bullseye
 # Set environment variables
 ENV PIP_DISABLE_PIP_VERSION_CHECK 1
